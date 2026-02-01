@@ -1,7 +1,10 @@
-import "./App.css";
+import { Header, Hero } from "./components";
 
-function App() {
-  return <div>hello world</div>;
+export default function App() {
+  return (
+    <div className="min-h-screen">
+      <Header />
+      <Hero />
+    </div>
+  );
 }
-
-export default App;
