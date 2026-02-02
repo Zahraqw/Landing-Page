@@ -34,6 +34,45 @@ const STRING = {
       { title: "Typography Scale", meta: "Published • 1h ago" },
     ],
   },
+
+  clients: {
+    title: "Trusted by product teams",
+    subtitle: "Used by startups and teams building design systems at scale.",
+    logos: ["Northwind", "Atlas", "Vanta", "Kite", "Spline", "Lumen"],
+  },
+
+  community: {
+    title: "Everything you need in one system",
+    subtitle: "Build, document, and ship UI faster with a shared foundation.",
+    hint: " Ready for production teams",
+    sectionTitle: "What you get",
+    cards: [
+      {
+        title: "Component Library",
+        desc: "Reusable components with clear variants, states, and guidelines.",
+      },
+      {
+        title: "Design Tokens",
+        desc: "Centralized colors, spacing, typography—synced across products.",
+      },
+      {
+        title: "Docs & Governance",
+        desc: "Usage rules, release notes, and adoption tracking for teams.",
+      },
+    ],
+  },
+
+  // story: {
+  //   title: "Ship updates without breaking UI",
+  //   subtitle:
+  //     "AuroraUI helps teams move faster with predictable patterns and a system that scales with your product.",
+  //   cta: "Learn more",
+  //   bullets: [
+  //     "Accessible components out of the box",
+  //     "Token-driven theming & consistency",
+  //     "Clear guidelines for every pattern",
+  //   ],
+  // },
 };
 
 export default STRING;
