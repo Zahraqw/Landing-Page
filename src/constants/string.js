@@ -62,17 +62,27 @@ const STRING = {
     ],
   },
 
-  // story: {
-  //   title: "Ship updates without breaking UI",
-  //   subtitle:
-  //     "AuroraUI helps teams move faster with predictable patterns and a system that scales with your product.",
-  //   cta: "Learn more",
-  //   bullets: [
-  //     "Accessible components out of the box",
-  //     "Token-driven theming & consistency",
-  //     "Clear guidelines for every pattern",
-  //   ],
-  // },
+  caseStudy: {
+    badge: "Case Study",
+    title: "The unseen work behind a scalable UI system",
+    subtitle:
+      "We helped a small team create reusable patterns, improve accessibility, and ship consistent screens across multiple products.",
+    cta: "Learn more",
+  },
+
+  impact: {
+    badge: "Impact",
+    title: "Helping teams ship faster with fewer UI regressions",
+    subtitle:
+      "From tokens to documentation, everything stays aligned—so your product scales without redesigning every release.",
+    cta: "See results",
+    stats: [
+      { value: "2,245,341", label: "Components rendered" },
+      { value: "46,328", label: "Design tokens synced" },
+      { value: "828,867", label: "Docs views" },
+      { value: "1,926,436", label: "QA checks passed" },
+    ],
+  },
 };
 
 export default STRING;

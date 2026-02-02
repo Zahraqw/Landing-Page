@@ -3,7 +3,7 @@ import { Blocks, Palette, BookOpen } from "lucide-react";
 
 const ICONS = [Blocks, Palette, BookOpen];
 
-export default function Community() {
+const Community = () => {
   const { title, subtitle, cards, hint, sectionTitle } = STRING.community;
 
   return (
@@ -56,4 +56,6 @@ export default function Community() {
       </div>
     </section>
   );
-}
+};
+
+export default Community;
