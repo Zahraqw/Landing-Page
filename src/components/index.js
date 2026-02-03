@@ -4,3 +4,6 @@ export { default as Clients } from "./Clients";
 export { default as Community } from "./Community";
 export { default as CaseStudy } from "./CaseStudy";
 export { default as Impact } from "./Impact";
+export { default as Marketing } from "./Marketing";
+export { default as CtaStrip } from "./CtaStrip";
+export { default as Footer } from "./Footer";

@@ -5,6 +5,9 @@ import {
   Community,
   CaseStudy,
   Impact,
+  Marketing,
+  CtaStrip,
+  Footer,
 } from "./components";
 
 export default function App() {
@@ -20,6 +23,11 @@ export default function App() {
       <CaseStudy />
       <div className="h-6 md:h-10" />
       <Impact />
+      <div className="h-6 md:h-10" />
+      <Marketing />
+      <div className="h-6 md:h-10" />
+      <CtaStrip />
+      <Footer />
     </div>
   );
 }
